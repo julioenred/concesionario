@@ -4,9 +4,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 class Menu {
-    private ArrayList<String> opciones = new ArrayList<String>();
+    private ArrayList<String> opciones;
     
     public Menu(){
+        this.opciones = new ArrayList<String>();
         this.opciones.add("1.- Añadir coche");
         this.opciones.add("2.- Eliminar coche");
     }

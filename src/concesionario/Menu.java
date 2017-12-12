@@ -8,6 +8,7 @@ class Menu {
     
     public Menu(){
         this.opciones.add("1.- Añadir coche");
+        this.opciones.add("2.- Eliminar coche");
     }
     
     public int opcion(){

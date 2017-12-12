@@ -33,6 +33,9 @@ public class Concesionario {
             case 1:
                 System.out.println("acabas de añadir un coche\n");
                 break;
+            case 2:
+                System.out.println("acabas de eliminar un coche\n");
+                break;
             case 9:
                 this.salir();
                 System.out.println("Hasta pronto!");
